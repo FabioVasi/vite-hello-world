@@ -2,10 +2,12 @@
 
   import HelloWorld from "./components/HelloWorld.vue";
   import AppTitle from "./components/AppTitle.vue";
+  import AppHero from "./components/AppHero.vue";
   export default {
     components: {
       HelloWorld,
-      AppTitle
+      AppTitle,
+      AppHero
     }
   }
   
@@ -16,6 +18,7 @@
  
   <HelloWorld/>
   <AppTitle/>
+  <AppHero/>
 
 </template>
 
